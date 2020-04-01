@@ -1,0 +1,76 @@
+body {
+    height: auto;
+    background: #efefef;
+    font-family: 'Sunflower', sans-serif;
+}
+
+
+/* animation */
+
+@keyframes fade-slide-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-5rem);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes fade-slide-left {
+    0% {
+        opacity: 0;
+        transform: translateX(5rem);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+#tableForm td{
+    border-bottom: none;
+}
+td,
+th {
+    text-align: left;
+    padding: 5px 35px;
+    border-bottom: 1px solid gray;
+}
+
+
+/* footer */
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    right: 47.5%;
+    margin-top: auto;
+}
+
+/* style tugas 3 */
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    padding-top: 10px;
+    margin-bottom: 6px;
+    width: 20em;
+}
+
+
+button {
+    font-family: 'Roboto Mono', monospace;
+    font-size: medium;
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
